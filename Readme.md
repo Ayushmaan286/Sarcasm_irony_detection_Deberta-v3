@@ -4,7 +4,7 @@ A transformer-based NLP system for detecting sarcasm and irony using a shared De
 
 ---
 
-## 📌 Project Overview
+##  PROJECT OVERVIEW
 
 Sarcasm and irony are challenging Natural Language Processing (NLP) tasks because the intended meaning of an utterance may differ from its literal meaning. In conversational settings, surrounding context can provide additional information needed to interpret the current utterance.
 
@@ -22,7 +22,7 @@ The system combines:
 
 ---
 
-## 🎯 Objectives
+## OBJECTIVES
 
 The main objectives of this project are:
 
@@ -37,7 +37,7 @@ The main objectives of this project are:
 
 ---
 
-# 📊 Dataset
+# DATASET
 
 Two publicly available datasets were integrated into a unified dataset.
 
@@ -69,10 +69,16 @@ The two datasets were combined into a unified dataset containing:
 
 The resulting dataset contains:
 
-```text
 id
 context
 text
 sarcasm_label
 irony_label
 source
+
+
+# LABEL REPRESENTATION
+
+0 -->Negative
+1 -->Positive
+-1 -->Annotation unavailable 
