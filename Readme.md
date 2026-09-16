@@ -79,6 +79,6 @@ source
 
 # LABEL REPRESENTATION
 
-0 -->Negative
-1 -->Positive
--1 -->Annotation unavailable 
+0 -->Negative  
+1 -->Positive  
+-1 -->Annotation unavailable   
