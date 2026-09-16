@@ -1,0 +1,29 @@
+Context-Aware Sarcasm and Irony Detection — Run Instructions
+
+Requirements:
+- Python 3.10 or later
+- The trained checkpoint present at:
+  ../models/best_checkpoint.pt (relative to the inference/ folder)
+
+Setup:
+1. From the streamlit_app/ directory, install dependencies:
+     pip install -r requirements.txt
+
+2. Ensure the project folder structure is preserved:
+     sarcasm_irony_project/
+     ├── models/
+     │   └── best_checkpoint.pt
+     ├── inference/
+     │   └── inference.py
+     └── streamlit_app/
+         ├── app.py
+         └── requirements.txt
+
+Running the app:
+3. From the streamlit_app/ directory, run:
+     streamlit run app.py
+
+4. Streamlit will open the app in your browser (default: http://localhost:8501).
+
+Entry point:
+- streamlit_app/app.py
